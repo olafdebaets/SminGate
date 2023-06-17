@@ -28,4 +28,4 @@ Part 1 involves creating the automation given specific presets. Part 2 involves 
 
 Advantages: Tightly coupled functionality belongs together in one deployment, the normal container would be dependent on the init container, only when the token and values are fetched, the print output container would be started.
 
-Disavantages: increased need of resources: there is an additional container to be run and secondly, on an init container we cannot put liveness probes, the check if it is running.
+Disavantages: increased need of resources: there is an additional container to be run and secondly, on an init container we cannot put liveness probes, to check if it is running.
